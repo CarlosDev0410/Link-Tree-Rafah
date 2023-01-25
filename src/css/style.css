@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins';
+    background: #2d7c1d;
+    background: linear-gradient(0deg, #2d7c1d 0%, #9bca11 50%, #e4f2b1 100%);
+}
 
 .container{
     max-width: 1440px;
@@ -50,7 +55,7 @@
 }
 
 .container .painel .texto .titulo{
-    color: #2d7c1d;
+    color: #3d3d3d;
     letter-spacing: 5px;
     font-size: 15px;
     cursor: pointer;
@@ -124,10 +129,10 @@
 
 .rodape p a{
     text-decoration: none;
-    color: #126601;
+    color: blue;
 }
 
 .rodape p a:hover{
-    color: rgb(5, 37, 124);
+    color: rgb(255, 255, 255);
 }
 
