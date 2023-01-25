@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins';
+    background-image: url("/src/imagens/pattern-7426311.png");
+    background-size: cover;
+}
+
+.container{
+    max-width: 1440px;
+    height: calc(100vh - 50px);
+    padding-top: 20px;
+    
+}
+
+.container .painel {
+    background-color: black;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    padding-top: 25px;
+    -webkit-box-shadow: 3px 3px 15px -0.5px #a6a6a6;
+    -moz-box-shadow: 3px 3px 15px -0.5px #a6a6a6;
+    box-shadow: 3px 3px 15px -0.5px #a6a6a6;
+}
+
+.container .painel .imagem {
+    background-color: rgb(255, 255, 255);
+    width: 110px;
+    height: 115px;
+    -webkit-box-shadow: 0 0 11px 2px #878787;
+    -moz-box-shadow: 0 0 11px 2px #878787;
+    box-shadow: 0 0 11px 2px #878787;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.container .painel .imagem img{
+    width: 100%;
+    border-radius: 50%; 
+}
+
+.container .painel .texto{
+    color: #3d3d3d;
+    width: max-content;
+}
+
+.container .painel .texto .titulo{
+    color: #2d7c1d;
+    letter-spacing: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(117, 117, 117);
+    transition: 0.4s all ease-in-out;
+}
+
+.container .painel .texto .titulo:hover{
+    letter-spacing: 7px;
+}
+
+.container .painel .texto .subtitulo{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.container .painel .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.container .painel .links li{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+    width: 300px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+.container .links li:hover{
+    transform: scale(1.1);
+}
+
+.container .links li a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.container .links li img{
+    width: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 50px;
+}
+
+.rodape p{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+.rodape p a{
+    text-decoration: none;
+    color: #126601;
+}
+
+.rodape p a:hover{
+    color: rgb(5, 37, 124);
+}
+
