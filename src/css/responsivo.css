@@ -1,0 +1,48 @@
+@media (max-width: 500px) {
+
+    .container .painel{
+        max-width: 300px;
+    }
+    
+    .container .painel .imagem{
+        max-width: 95px;
+        max-height: 100px;
+    }
+
+    .container .painel .texto .titulo{
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .container .painel .texto .titulo:hover{
+        letter-spacing: 6px; 
+    }
+
+    .container .painel .texto .subtitulo{
+        font-size: 12px;
+    }
+
+    .container .painel .links li{
+        width: 240px;
+    }
+
+    .container .painel .links li a {
+        font-size: 15px ;
+    }
+}
+
+@media (max-height: 500px) {
+
+    .container .painel{
+        max-height: 300px;
+    }
+
+    .container .painel .imagem{
+        display: none;
+    }
+
+    .container .painel .links{
+        height: 100%;
+        justify-content: center;
+    }
+}
